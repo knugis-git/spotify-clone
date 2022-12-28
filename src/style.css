@@ -487,8 +487,8 @@ body {
   background: rgba(247, 247, 247, 0.952);
   z-index: 9999;
   font-family: Arial, Helvetica, sans-serif;
-  left: 25%;
-  top: 35%;
+  left: 0%;
+  top: 65%;
 }
 
 .cookie-container button {
