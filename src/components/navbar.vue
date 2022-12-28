@@ -20,7 +20,9 @@
             </div>
             <div class="navbar-login">
               <span>Registrera dig</span>
-              <span>Logga in</span>
+              <span
+                ><router-link to="/login" class="routerlink">Login</router-link>
+              </span>
             </div>
           </div>
         </div>

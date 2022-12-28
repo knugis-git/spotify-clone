@@ -501,3 +501,153 @@ body {
   padding: 1rem;
   border-radius: 1.5rem;
 }
+
+/* router links */
+
+.routerlink {
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease;
+}
+
+.routerlink:hover {
+  color: #1ed760;
+}
+
+/* LOGIN PAGE */
+
+.login-wrapper {
+  min-width: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.login-all {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+}
+
+.login-logo {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo img {
+  width: 190px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login-online {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-end {
+  display: flex;
+}
+
+.login-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-logo hr {
+  width: 100%;
+  opacity: 0.3;
+  margin: 0;
+}
+
+.login-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.login-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-online span {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+}
+
+.online-button {
+  width: 450px;
+  height: 45px;
+  border-radius: 50px;
+  margin: 10px 0px;
+  color: #ffffffe6;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.online-button:hover {
+  cursor: pointer;
+  border: 1px solid blacK;
+}
+
+.facebook {
+  background: rgb(24, 119, 242);
+  border: NONE;
+}
+
+.apple {
+  background: rgba(0, 0, 0, 0.911);
+  border: NONE;
+}
+
+.google {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  color: #6a6a6a;
+}
+
+.login-login span {
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.login-login input {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 0 0 0 1px #878787;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.login-loggain {
+  color: black;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background: #1ed760;
+  text-transform: uppercase;
+  border: none;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
