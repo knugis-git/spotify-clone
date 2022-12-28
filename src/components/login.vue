@@ -10,26 +10,43 @@
           <div class="login-online">
             <span>Logga in på Spotify för att fortsätta.</span>
             <button class="online-button facebook">
-              Fortsätt med facebook
+              <i class="fa-brands fa-square-facebook"></i>&nbsp; &nbsp; Fortsätt
+              med facebook
             </button>
-            <button class="online-button apple">Fortsätt med apple</button>
-            <button class="online-button google">Fortsätt med google</button>
+            <button class="online-button apple">
+              <i class="fa-brands fa-apple"></i>&nbsp; &nbsp;Fortsätt med apple
+            </button>
+            <button class="online-button google">
+              <i class="fa-brands fa-google"></i> &nbsp; &nbsp;Fortsätt med
+              google
+            </button>
+            <div class="login-line">
+              <hr class="login-hr" />
+              <span class="login-eller"> Eller</span>
+              <hr class="login-hr" />
+            </div>
           </div>
           <div class="login-login">
-            <span>E-postadress eller användarnamn</span>
-            <input />
-            <span>Lösenord</span>
-            <input />
-            <span>Har du glömt ditt lösenord?</span>
+            <span class="login-span">E-postadress eller användarnamn</span>
+            <input class="login-input-epost login-input" />
+            <span class="login-span">Lösenord</span>
+            <input type="password" class="login-input-losen login-input" />
+            <span class="login-glomt">Har du glömt ditt lösenord?</span>
             <div class="login-end">
-              <div>
+              <div class="login-kom">
                 <input type="checkbox" />
-                <span>Kom ihåg mig?</span>
+                <span class="login-kom">Kom ihåg mig?</span>
               </div>
               <button class="login-loggain">Logga in</button>
             </div>
           </div>
-          <div class="login-no"></div>
+          <div class="login-no">
+            <hr />
+            <span>Har du inget konto?</span>
+            <button class="online-button regga">
+              Registrera dig för spotify
+            </button>
+          </div>
         </div>
       </div>
     </div>
