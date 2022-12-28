@@ -15,7 +15,7 @@
             <h1>Individual</h1>
             <p>109,00 kr/månad efter erbjudandeperioden</p>
             <p class="premium-account">1 konto</p>
-            <div class="premiumsplit"></div>
+            <div class="premiumsplit"><hr /></div>
             <div class="ability">
               <span><i class="fa-solid fa-check"></i>Reklamfri musik</span>
 
@@ -46,7 +46,7 @@
             <h1>Duo</h1>
             <p>149,00 kr/månad efter erbjudandeperioden</p>
             <p class="premium-account">2 konton</p>
-            <div class="premiumsplit"></div>
+            <div class="premiumsplit"><hr /></div>
             <div class="ability">
               <span
                 ><i class="fa-solid fa-check"></i>2 Premium-konton för par som
@@ -75,7 +75,7 @@
             <h1>Family</h1>
             <p>189,00 kr/månad efter erbjudandeperioden</p>
             <p class="premium-account">Upp till sex konton</p>
-            <div class="premiumsplit"></div>
+            <div class="premiumsplit"><hr /></div>
             <div class="ability">
               <span
                 ><i class="fa-solid fa-check"></i>6 Premium-konton för
@@ -112,7 +112,7 @@
             <h1>Student</h1>
             <p>65,00 kr/månad efter erbjudandeperioden</p>
             <p class="premium-account">1 konto</p>
-            <div class="premiumsplit"></div>
+            <div class="premiumsplit"><hr /></div>
             <div class="ability">
               <span
                 ><i class="fa-solid fa-check"></i>Specialrabatter för
