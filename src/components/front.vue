@@ -3,9 +3,11 @@ import frontcta from "./front-cta.vue";
 import frontvar from "./front-var.vue";
 import frontpremium from "./front-premium.vue";
 import navbot from "./front-navbot.vue";
+import frontoffer from "./front-offer.vue";
 </script>
 
 <template>
+  <frontoffer />
   <frontcta />
   <frontvar />
   <frontpremium />

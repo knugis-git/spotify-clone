@@ -448,3 +448,31 @@ body {
 .navbot-swe:hover {
   color: #1ed760;
 }
+
+.offer-wrapper {
+  min-width: 100vh;
+  height: 2rem;
+  text-align: center;
+  background: #c30176;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.offer-container p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.offer-p {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
